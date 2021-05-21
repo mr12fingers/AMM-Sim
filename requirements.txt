@@ -1,0 +1,2 @@
+# back-plt/main.py: 3
+streamlit == 0.72.0
