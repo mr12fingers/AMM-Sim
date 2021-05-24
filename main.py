@@ -57,8 +57,8 @@ st.write("""
 k = b0*s0
 bnbdash = math.sqrt(xes*price*k)
 sdash = k/bnbdash
-st.text_input("Nuber of BNB : ", bnbdash) 
-st.text_input("Nuber of SHIRO : ", sdash) 
+st.text_input("Number of BNB : ", bnbdash) 
+st.text_input("Number of SHIRO : ", sdash) 
 
 st.write("""<p style="text-align: center;"><a href="https://www.shiroinu.online/"><img src="https://rawcdn.githack.com/mr12fingers/AMM-Sim/50333521a6adfdf6ba146d16037d0cd8cf6a4255/ShiroFinal.svg"
           alt="ShiroInuToken" title="Shiro Inu Token"></a></p>
