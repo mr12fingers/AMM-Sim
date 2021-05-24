@@ -60,5 +60,13 @@ sdash = k/bnbdash
 st.text_input("Nuber of BNB : ", bnbdash) 
 st.text_input("Nuber of SHIRO : ", sdash) 
 
-st.write("""<img>   <embed type="image/svg+xml" src="https://rawcdn.githack.com/mr12fingers/AMM-Sim/50333521a6adfdf6ba146d16037d0cd8cf6a4255/ShiroFinal.svg" /> <a href="https://www.shiroinu.online/"> </img>""", unsafe_allow_html=True)
-st.write(""" #### [SHIRO Inu Token](https://www.shiroinu.online/) """)
+st.write("""<p style="text-align: center;"><a href="https://www.shiroinu.online/"><img src="https://rawcdn.githack.com/mr12fingers/AMM-Sim/50333521a6adfdf6ba146d16037d0cd8cf6a4255/ShiroFinal.svg"
+          alt="ShiroInuToken" title="Shiro Inu Token"></a></p>
+    <p style="text-align: center;">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    </p>
+    <h4 style="box-sizing: border-box; font-weight: 600; font-size: 16px; margin: 0px; padding: 0.5em 0px 0.25em; line-height: 1; color: #262730; font-family: &quot;IBM Plex Sans&quot;,sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: white; text-decoration-style: initial; text-decoration-color: initial; text-align: center;"><a
+        href="https://www.shiroinu.online/" target="_blank" rel="noopener noreferrer"
+        style="box-sizing: border-box; color: rgb(0, 104, 201); text-decoration: underline;">SHIRO
+        Inu Token</a></h4>""", unsafe_allow_html=True)
+#st.write(""" #### [SHIRO Inu Token](https://www.shiroinu.online/) """)
